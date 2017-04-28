@@ -52,7 +52,7 @@ public class Login extends AppCompatActivity {
                     manager = getFragmentManager();
                     AlertDialogFragment alertDialogFragment = new AlertDialogFragment();
                     alertDialogFragment.show(manager, "fragment_login_error");
-                } else if (username.equals("163669241865747") && password.equals("HDIDUmQa7w78rS7!Q")) {
+                } else if (username.equals("155042163326969") && password.equals("3$KmPJSFe*YtjzmlJ")) {
 
                     sessionID = LoginAuthenticate(username, password);
                     Intent i = new Intent(Login.this, MainActivity.class);
